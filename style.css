@@ -1,0 +1,74 @@
+/*  #080001;  #0ea5e9;  points:#9aabd8*/
+
+body {
+  margin: 0;
+  background-color: #1b244a;
+  color: #eeeeee;
+}
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  min-width: 500px;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.score {
+  background-color: #080001;
+  color: red;
+  font-size: 90px;
+  width: 150px;
+  line-height: 130px;
+  text-align: center;
+}
+.points-container {
+  margin: 10px 0;
+  display: flex;
+}
+.points-container:hover{
+  color: #7dd3fc;
+  cursor: pointer;
+}
+
+.point {
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 5px;
+}
+.btn-newGame {
+  border: 2px solid #0ea5e9;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: #0ea5e9;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.btn-newGame:hover {
+  border: 2px solid #7dd3fc;
+  color: #7dd3fc;
+  cursor: pointer;
+}
+

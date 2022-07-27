@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basketball Scores</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="score-continer">
+                <h3>Home</h3>
+                <div class="score" id="home-score">0</div>
+                <div class="points-container">
+                    <div class="point" onclick="addOneToHome()">+1</div>
+                    <div class="point" onclick="addTwoToHome()">+2</div>
+                    <div class="point" onclick="addThreeToHome()">+3</div>
+                </div>
+            </div>
+
+            <div class="score-continer">
+                <h3>Guest</h3>
+                <div class="score" id="guest-score">0</div>
+                <div class="points-container">
+                    <div class="point" onclick="addOneToGuest()">+1</div>
+                    <div class="point" onclick="addTwoToGuest()">+2</div>
+                    <div class="point" onclick="addThreeToGuest()">+3</div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-newGame" onclick="newGame()">New Game</div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
